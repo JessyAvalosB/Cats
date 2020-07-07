@@ -2,12 +2,12 @@ import React from "react";
 
 const ImageCard = props => {
   return (
-    <div className="card text-left bg-dark text-light rounded m-2">
+    <div className="card text-left text-light rounded m-2" style={{backgroundColor: "gray"}}>
       <img
         className="card-img-top rounded img-fluid"
         src="/img/17010.jpg"
         alt=""
-        style={{ width: 500 }}
+        style={{ width: "100%" }}
       />
       <div className="card-body">
         <h4 className="card-title">
