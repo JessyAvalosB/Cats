@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 
 import ImageCard from "../components/gallery/ImageCard";
-import RaceList from '../components/gallery/RaceList'
+import RaceList from "../components/gallery/RaceList";
+import MenuOptions from "../components/gallery/MenuOptions";
 
 export default class Gallery extends Component {
   render() {
@@ -34,6 +35,10 @@ export default class Gallery extends Component {
 
         <div className="col-md-3" style={{position: "fixed", right: "1%", top: "15%", zIndex:"2"}}>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusamus doloremque pariatur eius accusantium totam, tenetur autem tempora laudantium unde iste at, fuga facilis vel sit architecto repudiandae et quam!</p>
+        </div>
+        <div className="col-3">
+          <MenuOptions header="Top gatos amados"/>
+          <MenuOptions header="Top gatos no tan amados"/>
         </div>
       </div>
     );

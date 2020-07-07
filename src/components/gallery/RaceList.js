@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const RaceList = params => {
   return (
-    <div>
-      <h2>Razas</h2>
+    <div className="d-flex flex-column">
+      <h2 className="align-self-center">Razas</h2>
       <ul className="list-group">
         <Link
           to="#"
