@@ -1,0 +1,32 @@
+.content {
+    font-family: "Open Sans", sans-serif;
+    background-color: #1c1714;
+    color: #e4e6eb;
+}
+
+.bg-navigator {
+    background-color: #242526;
+    color: #e4e6eb;
+}
+
+.bg-card {
+    background-color: #242526;
+    color: #e4e6eb;
+}
+
+.img-val {
+    height: 100%;
+}
+
+.static-part {
+    position: static;
+    z-index: 2;
+}
+
+.item-hover:hover {
+    background-color: #1c171400;
+}
+
+.rotate-text {
+    
+}
